@@ -1,0 +1,12 @@
+<div>
+    <h3>add a todo</h3>
+    <form action="#" id="form" (ngSubmit)="onSubmit()">
+        <input type="text" name="title" id="title" [(ngModel)]="title"><br>
+        <label for="title">add a title</label>
+        <br>
+        <textarea name="desc"  id="desc" cols="30" rows="10" [(ngModel)]="desc"></textarea>
+        <br>
+        <label for="desc"></label>
+        <button mat-raised-button color="primary">submit</button>
+    </form>
+</div>

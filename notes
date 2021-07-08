@@ -1,0 +1,22 @@
+sending data from parent to child 
+using input decorater inside child component
+and binding inside <child [hero]="data"></child>
+where data is defined in parent component
+
+
+reusable component in angular
+use ngFor to reuse components
+
+sending data from child to parent using event emiiter
+
+directives used to manipulate dom 
+ngif ngFor
+custom directives
+ng g directives customStyle
+in order to create custom directives
+
+
+services used to share data between two or more components 
+where same data is being shared 
+services not dependent not module or components 
+it can be used anywhere

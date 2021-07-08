@@ -1,0 +1,8 @@
+<div>
+  <h2>{{ todo.title | titlecase}}</h2>
+  <sup>{{todo.date | date}}</sup>
+  <p>{{ todo.desc | lowercase }}</p>
+  <!-- todo items need to accepted -->
+  <button class="but" (click)="onClick(todo)">del</button>
+</div>
+<!-- pipe is used to format the variables -->
